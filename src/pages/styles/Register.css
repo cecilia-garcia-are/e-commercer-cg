@@ -1,0 +1,98 @@
+/*RESPONSIVE*/
+
+.form__container_r{
+    display: grid;
+    grid-template-columns: repeat(auto-fit)
+    minmax(150px, 1fr);
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 0.5em;
+    margin: auto;
+    margin-top: 2em;
+    
+}
+
+.form__title_r{
+   text-align: center;
+   font-size: 1.5em;
+   color: rgb(36, 207, 36);
+   margin: 20px;
+   font-weight: bold;
+}
+
+.form__register{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: auto;
+   width: 90%;
+   font-size: 1em;
+   padding: 0.3em;
+
+   
+
+}
+
+.form__label_r{
+    width: 100%;
+    font-size: 1em;
+    font-weight: 600;
+    padding-left: 0.5em;
+}
+
+.form__input_r{
+    
+    width: 100%;
+   padding: 0.5em 0;
+   border-radius: 0.5em;
+   color: var(--color-green);
+   font-weight: 700;
+  
+}
+
+.form__checkbox_r{
+    width: 100%;
+    margin: 20px 0;
+    color: rgb(36, 207, 36);
+    font-weight: 600;
+    
+}
+
+.box_r{
+    display: inline-flex;
+    cursor: pointer;
+    margin-left: 1.5em;
+
+}
+
+.button__register{
+   
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+    background-color: var(--color-green);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: inherit;
+    padding: 8px 20px;
+    border-radius: 0.5em;
+    
+    
+}
+
+.button__register:hover {
+    transition:all .5s ease-in-out;
+    color: white;
+    background-color: rgb(78, 78, 78);
+}
+
+.form__login{
+   padding-top: 0.5em;
+   text-align: center;
+   
+}

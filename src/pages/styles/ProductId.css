@@ -1,0 +1,23 @@
+.productid__container{
+    display: grid;
+   grid-template-columns: repeat(auto-fit)
+   minmax(150px, 1fr);
+   gap: 3em; 
+   
+   
+    
+}
+
+.productid__info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.prodid__similar{
+    width: 80%;
+    justify-self: center;
+    
+    
+}

@@ -1,0 +1,37 @@
+.prodS__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit)
+    minmax(150px, 1fr);
+    gap: 2em; 
+    align-items: center;
+
+}
+
+.prodS__title{
+    color: var(--color-green);
+    margin-left: 2em;
+    font-size: 1.5em;
+}
+
+/*.prodS__group{
+    display: flex;
+    align-items: center;
+   gap: 2em; 
+   max-width: 1200px;
+   margin: 0 auto;
+   padding-top: 1em;
+}
+*/
+
+.prodS__group {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 600px) {
+    .prodS__group {
+      flex-direction: column;
+    }
+  }

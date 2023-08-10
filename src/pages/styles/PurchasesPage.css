@@ -1,0 +1,21 @@
+.purchases__container{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 2em; 
+   padding-top: 3em;
+}
+
+.purchases__title{
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(36, 207, 36);
+    margin: 20px;
+    font-weight: bold;
+}
+
+.purchases__products{
+    display: grid;
+    gap: 2em; 
+    padding-top: 3em;
+}
